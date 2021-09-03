@@ -32,12 +32,12 @@ To use ggplot2, you will need to have access to `R`. You can either use a local 
 
 To install ggplot2 you can do the following:
 
-### The easiest way to get ggplot2 is to install the whole tidyverse:
+#### The easiest way to get ggplot2 is to install the whole tidyverse:
 ```
 install.packages("tidyverse")
 ```
 
-### Alternatively, install just ggplot2:
+#### Alternatively, install just ggplot2:
 ```
 install.packages("ggplot2")
 ```
