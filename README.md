@@ -9,3 +9,6 @@ This is an intro to plotting with R, and will introduce basic ggplot techniques 
 Some examples used below are from the above links  
 
 
+## The Basics: What is ggplot2?
+
+ggplot2 is an R package that allows for customizable data visualization. It is part of the tidyverse package suite and is a very well maintained and updated package. https://ggplot2.tidyverse.org/
