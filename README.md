@@ -1,5 +1,6 @@
 <img src="/pics/plot_examples.png" width="800">  
-Above pic from:https://www.r-graph-gallery.com
+Above pic from:https://www.r-graph-gallery.com (a great site to see the variety of plots ggplot can produce)
+&nbsp;   
 
 # Plotting_Intro_R
 This is an intro to plotting with R, and will introduce basic ggplot techniques as well as how to intregrate with Plotly.
