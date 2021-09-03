@@ -40,6 +40,6 @@ install.packages("ggplot2")
 ```
 
 ggplot2 cheat sheets:
-<img src="/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf">
+<img src="/pics/datavis_1.png" width="200">
 
 https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf
