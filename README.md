@@ -36,6 +36,7 @@ To install ggplot2 you can do the following:
 ```
 install.packages("tidyverse")
 ```
+*tidyverse includes popular R packages such as dplyr, readr, tibble, and others. They follow a tidy data philosophy: https://www.tidyverse.org/*
 
 #### Alternatively, install just ggplot2:
 ```
