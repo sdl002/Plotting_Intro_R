@@ -39,3 +39,7 @@ install.packages("tidyverse")
 install.packages("ggplot2")
 ```
 
+ggplot2 cheat sheets:
+<img src="https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf">
+
+https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf
