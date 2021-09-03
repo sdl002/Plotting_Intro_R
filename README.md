@@ -1,11 +1,13 @@
+# Plotting_Intro_R
+This is an intro to plotting with R, and will introduce basic ggplot techniques as well as how to intregrate with Plotly.
+
 <img src="/pics/plot_examples.png" width="800">  
 Above pic from:https://www.r-graph-gallery.com (a great site to see the variety of plots ggplot can produce)
 &nbsp;  
 &nbsp;   
   
 
-# Plotting_Intro_R
-This is an intro to plotting with R, and will introduce basic ggplot techniques as well as how to intregrate with Plotly.
+
 
 ### There are a lot of Intros on ggplot2 available, I put together a brief overview that takes no more than 1 hour to work through, but I highly reccomend also considering the following tutorials for a more in depth training:
 1. http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html  
