@@ -8,7 +8,7 @@ This is an intro to plotting with R, and will introduce basic ggplot techniques 
 
 Some examples used below are from the above links  
 
-<img src="/pics/logo_ggplot2.png" width="700">  
+<img src="/pics/logo_ggplot2.png" width="200">  
 
 ## The Basics: What is ggplot2?
 
