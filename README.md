@@ -10,7 +10,8 @@ Above pic from:https://www.r-graph-gallery.com (a great site to see the variety 
        
        
 
-
+&nbsp;  
+&nbsp; 
 ### There are a lot of Intros on ggplot2 available, I put together a brief overview that takes no more than 1 hour to work through, but I highly reccomend also considering the following tutorials for a more in depth training:
 1. http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html  
 2. https://rpubs.com/arvindpdmn/ggplot2-basics  
