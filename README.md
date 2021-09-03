@@ -39,7 +39,7 @@ install.packages("tidyverse")
 install.packages("ggplot2")
 ```
 
-ggplot2 cheat sheets: &nbsp;
-<img src="/pics/datavis_1.png" width="600">
-
-https://github.com/rstudio/cheatsheets/blob/master/data-visualization-2.1.pdf
+ggplot2 cheat sheets: &nbsp;  
+<img src="/pics/datavis_1.png" width="600">. 
+<img src="/pics/datavis_2.png" width="600">
+https://ggplot2.tidyverse.org/index.html
