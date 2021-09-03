@@ -13,4 +13,17 @@ Some examples used below are from the above links
 
 ggplot2 is an R package that allows for customizable data visualization. It is part of the tidyverse package suite and is a very well maintained and continuously updated package. https://ggplot2.tidyverse.org/
 
+To use ggplot2, you will need to have access to the R programming language. You can either use a local installation or a sever installation. 
+
+To install ggplot2 you can do the following:
+
+### The easiest way to get ggplot2 is to install the whole tidyverse:
+```
+install.packages("tidyverse")
+```
+
+### Alternatively, install just ggplot2:
+```
+install.packages("ggplot2")
+```
 
