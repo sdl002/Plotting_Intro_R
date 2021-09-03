@@ -17,7 +17,7 @@ Above pic from:https://www.r-graph-gallery.com (a great site to see the variety 
 2. https://rpubs.com/arvindpdmn/ggplot2-basics  
 3. https://bookdown.org/skaltman/visualization-book/the-basics-of-ggplot2.html  
 
-Some examples used below are from the above links   
+*Some examples used below are from the above links*   
   
 &nbsp;  
 &nbsp;  
