@@ -40,6 +40,6 @@ install.packages("ggplot2")
 ```
 
 ggplot2 cheat sheets: &nbsp;  
-<img src="/pics/datavis_1.png" width="600">. 
-<img src="/pics/datavis_2.png" width="600">
+<img src="/pics/datavis_1.png" width="400">  
+<img src="/pics/datavis_2.png" width="400">  
 https://ggplot2.tidyverse.org/index.html
