@@ -6,7 +6,9 @@ This is an intro to plotting with R, and will introduce basic ggplot techniques 
 2. https://rpubs.com/arvindpdmn/ggplot2-basics  
 3. https://bookdown.org/skaltman/visualization-book/the-basics-of-ggplot2.html  
 
-Some examples used below are from the above links  
+Some examples used below are from the above links   
+  
+    
 
 <img src="/pics/logo_ggplot2.png" width="200">  
 
