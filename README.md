@@ -173,6 +173,8 @@ __Almost every plot maps a variable to x and y, so naming these aesthetics is te
 ggplot(mpg, aes(displ, hwy)) + geom_point()
 ``
 
+When you run either of the above commands, you will see this:
+<img src="/pics/example1.png" width="600">  
 
 ## Lets get festive! One more fun plot!
  
