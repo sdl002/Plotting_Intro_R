@@ -54,4 +54,8 @@ https://ggplot2.tidyverse.org/index.html
 ggplot2 was developed by Hadley Wickham (developer of the Tidyverse).    
 <img src="/pics/hadley_wickham.jpeg" width="400">  
 
+### There are three main components to every ggplot graph:
+#### 1. Data (usually as a datafram)
+#### 2. Plot Aesthetics (indicates x and y variables, colors, shapes, sizes, etc.)
+#### 3. Geometry (boxplot, scatter plot, violin plot, etc.)
 
