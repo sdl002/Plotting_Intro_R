@@ -77,4 +77,15 @@ The Grammar of Graphics. Visual by Thomas de Beus
 #### 2. Plot Aesthetics (indicates x and y variables, colors, shapes, sizes, etc.)
 #### 3. Geometry (boxplot, scatter plot, violin plot, etc.)
 
+### The main ggplot2 function is:
+`ggplot()`
 
+### Generated plots can be kept as variables, printed out at anytime, or saved using:
+`ggsave(“plot.png”, width = 5, height = 5)` which saves the last plot in the current working directory.
+
+The generated plot can be kept as a variable and then printed at any time using the function print().
+
+After creating plots, two other important functions are:
+
+last_plot(), which returns the last plot to be modified
+ggsave(“plot.png”, width = 5, height = 5), which saves the last plot in the current working directory.
