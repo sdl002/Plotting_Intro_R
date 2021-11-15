@@ -79,7 +79,8 @@ All plots are composed of the __data__, the information you want to visualise, a
 
 - A __facet__ specifies how to break up and display subsets of data as small multiples. This is also known as conditioning or latticing/trellising.
 
-- A __theme__ controls the finer points of display, like the font size and background colour. While the defaults in ggplot2 have been chosen with care, you may need to consult other references to create an attractive plot. A good starting place is Tufte’s early works.3
+- A __theme__ controls the finer points of display, like the font size and background colour. While the defaults in ggplot2 have been chosen with care, you may need to consult other references to create an attractive plot. A good starting place is Edward Tufte’s early works.  
+
 From: https://ggplot2-book.org/introduction.html
 
 
