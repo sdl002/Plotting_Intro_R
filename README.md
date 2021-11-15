@@ -65,7 +65,8 @@ ggplot2 is different than most graphics packages, it uses underlying grammar tha
 &nbsp;   
 
 ### The Grammar of Graphics  
-<img src="/pics/grammar_of_graphics.png" width="800"> The Grammar of Graphics. Visual by Thomas de Beus
+<img src="/pics/grammar_of_graphics.png" width="800">   
+The Grammar of Graphics. Visual by Thomas de Beus
 
 
 ### There are three main components to every ggplot graph:
