@@ -227,7 +227,18 @@ see vignette("ggplot2-specs") for the values needed for colour and other aesthet
 
 When using `aesthetics` in a plot, __less is usually more__. It’s difficult to see the simultaneous relationships among colour and shape and size, so *exercise restraint when using aesthetics*. Instead of trying to make one very complex plot that shows everything at once, see if you can create a series of simple plots that tell a story, leading the reader from ignorance to knowledge.
 
+It’s sometimes useful to map aesthetics to constants. For example, if you want to display multiple layers with varying parameters, you can “name” each layer:
 
+```
+ggplot(mpg, aes(cty, hwy)) + 
+  geom_point() +
+  geom_smooth(aes(colour = "loess"), method = "loess", se = FALSE) + 
+  geom_smooth(aes(colour = "lm"), method = "lm", se = FALSE) +
+  labs(colour = "Method")
+```
+
+#> `geom_smooth()` using formula 'y ~ x'
+#> `geom_smooth()` using formula 'y ~ x'
  
   
 ## Lets get festive! One more fun plot!
