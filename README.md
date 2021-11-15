@@ -214,7 +214,7 @@ The first plot `maps` (not `sets`) the colour to the value ‘blue’. This effe
 Equivalently to the second plot, one could do the following by mapping to the value, but override the default scale:
 
 ``
-ggplot(mpg, aes(cty, hwy)) + 
+ggplot(mpg, aes(dslp, hwy)) + 
   geom_point(aes(colour = "blue")) + 
   scale_colour_identity()
 ``
@@ -230,7 +230,7 @@ When using `aesthetics` in a plot, __less is usually more__. It’s difficult to
 It’s sometimes useful to map aesthetics to constants. For example, if you want to display multiple layers with varying parameters, you can “name” each layer:
 
 ```
-ggplot(mpg, aes(cty, hwy)) + 
+ggplot(mpg, aes(dslp, hwy)) + 
   geom_point() +
   geom_smooth(aes(colour = "loess"), method = "loess", se = FALSE) + 
   geom_smooth(aes(colour = "lm"), method = "lm", se = FALSE) +
