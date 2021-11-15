@@ -207,6 +207,10 @@ In the first plot, the value `blue` is scaled to a pinkish colour, and a legend 
   
 Instead of mapping an `aesthetic` property to a `variable`, you can set it to a single value by specifying it in the `layer parameters`. *We map an aesthetic to a variable (e.g., aes(colour = cut)) or set it to a constant (e.g., colour = "red").* If you want appearance to be governed by a variable, __put the specification inside aes()__; if you want override the default size or colour, __put the value outside of aes()__.
 
+The above plots are created with similar code, but have rather __different outputs__. 
+
+The first plot `maps` (not sets) the colour to the value ‘blue’. This effectively creates a __new variable__ containing only the value ‘blue’ and then scales it with a colour scale. Because this value is discrete, the default colour scale uses evenly spaced colours on the colour wheel, and since there is only one value this colour is pinkish.
+
 see vignette("ggplot2-specs") for the values needed for colour and other aesthetics.
 
 *Different types of aesthetic attributes work better with different types of variables.* For example, __colour__ and __shape__ work well with *categorical variables*, while __size__ works well for *continuous variables*. The amount of data also makes a difference: if there is a lot of data it can be hard to distinguish different groups. An alternative solution is to use `faceting`, as described next.
