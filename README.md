@@ -13,7 +13,7 @@ This is an intro to plotting with R, and will introduce basic ggplot techniques 
 2. https://rpubs.com/arvindpdmn/ggplot2-basics  
 3. https://bookdown.org/skaltman/visualization-book/the-basics-of-ggplot2.html  
 
-*Some examples used below are from the above links*   
+*Some information and examples described below are from the above links*   
   
 &nbsp;  
 &nbsp;  
@@ -45,8 +45,12 @@ ggplot2 cheat sheets: &nbsp;
 <img src="/pics/datavis_2.png" width="400">  
 https://ggplot2.tidyverse.org/index.html
 
+#### As always, you must load the package
 
-
+The easiest way is to just `library` the package
+```
+library("ggplot2")
+```
 
 # Basic ggplot2 concepts:
 
