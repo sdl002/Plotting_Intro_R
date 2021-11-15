@@ -1,4 +1,4 @@
-# Plotting_Intro_R
+# Plotting_Intro_ggplot2
 This is an intro to plotting with R, and will introduce basic ggplot techniques as well as how to intregrate with Plotly.
 
 <img src="/pics/plot_examples.png" width="800">  
