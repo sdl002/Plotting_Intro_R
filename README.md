@@ -174,7 +174,7 @@ ggplot(mpg, aes(displ, hwy)) + geom_point()
 ``
 
 When you run either of the above commands, you will see this:
-<img src="/pics/example1.png" width="600">  
+<img src="/pics/example1.png" width="400">  
 
 ## Lets get festive! One more fun plot!
  
