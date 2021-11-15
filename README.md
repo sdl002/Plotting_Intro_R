@@ -192,13 +192,19 @@ If you want to set an aesthetic to a fixed value, without scaling it, do so in t
   
 ``
 ggplot(mpg, aes(displ, hwy)) + geom_point(aes(colour = "blue"))
-``
+``   
+<img src="/pics/example3.png" width="500">  
+
+Oh no what happened?! Try the following instead...  
 
 
 ``
 ggplot(mpg, aes(displ, hwy)) + geom_point(colour = "blue")
-``  
+``     
+<img src="/pics/example.png" width="500">  
   
+ 
+ 
   
 ## Lets get festive! One more fun plot!
  
