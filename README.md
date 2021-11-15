@@ -184,7 +184,7 @@ To learn more about those outlying variables in the previous scatterplot, we cou
 ggplot(mpg, aes(displ, hwy, colour = class)) + geom_point()
 ``
 
-<img src="/pics/example2.png" width="600">  
+<img src="/pics/example2.png" width="500">  
   
 ## Lets get festive! One more fun plot!
  
