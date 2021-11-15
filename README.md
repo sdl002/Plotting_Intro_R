@@ -85,7 +85,3 @@ The Grammar of Graphics. Visual by Thomas de Beus
 
 The generated plot can be kept as a variable and then printed at any time using the function print().
 
-After creating plots, two other important functions are:
-
-last_plot(), which returns the last plot to be modified
-ggsave(“plot.png”, width = 5, height = 5), which saves the last plot in the current working directory.
