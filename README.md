@@ -201,7 +201,7 @@ Oh no what happened?! Try the following instead...
 ``
 ggplot(mpg, aes(displ, hwy)) + geom_point(colour = "blue")
 ``     
-<img src="/pics/example.png" width="500">  
+<img src="/pics/example4.png" width="500">  
   
  
  
