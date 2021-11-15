@@ -135,5 +135,21 @@ printed to screen:
 #> # … with 228 more rows
 ```
 
+The variables are mostly self-explanatory:
+
+`cty` and `hwy` record miles per gallon (mpg) for city and highway driving.
+
+`displ` is the engine displacement in litres.
+
+`drv` is the drivetrain: front wheel (f), rear wheel (r) or four wheel (4).
+
+`model` is the model of car. There are 38 models, selected because they had a new edition every year between 1999 and 2008.
+
+`class` is a categorical variable describing the “type” of car: two seater, SUV, compact, etc.
+
+This dataset suggests many interesting questions. __How are engine size and fuel economy related?__ __Do certain manufacturers care more about fuel economy than others?__ __Has fuel economy improved in the last ten years?__ We will try to answer some of these questions, and in the process learn how to create some basic plots with ggplot2.
+
+
+
 ## Lets get festive! One more fun plot!
  
