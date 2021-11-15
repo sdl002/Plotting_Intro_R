@@ -185,6 +185,20 @@ ggplot(mpg, aes(displ, hwy, colour = class)) + geom_point()
 ``
 
 <img src="/pics/example2.png" width="500">  
+
+This gives each point a unique colour corresponding to its class. The legend allows us to read data values from the colour, showing us that the group of cars with unusually high fuel economy for their engine size are two seaters: cars with big engines, but lightweight bodies.
+
+If you want to set an aesthetic to a fixed value, without scaling it, do so in the individual layer outside of aes(). Compare the following two plots:
+  
+``
+ggplot(mpg, aes(displ, hwy)) + geom_point(aes(colour = "blue"))
+``
+
+
+``
+ggplot(mpg, aes(displ, hwy)) + geom_point(colour = "blue")
+``  
+  
   
 ## Lets get festive! One more fun plot!
  
