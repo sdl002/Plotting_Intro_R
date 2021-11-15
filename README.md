@@ -63,6 +63,11 @@ ggplot2 was developed by Hadley Wickham (developer of the Tidyverse).
 
 ggplot2 is different than most graphics packages, it uses underlying grammar that is based on the ["Grammar of Graphics"](https://link.springer.com/chapter/10.1007/978-3-642-21551-3_13). This allows the user to compose graphs by combining independent components. One can think about the plots as having layers of data.
 
+
+
+The Grammar of Graphics. Visual by Thomas de Beus
+
+
 ### There are three main components to every ggplot graph:
 #### 1. Data (usually as a datafram)
 #### 2. Plot Aesthetics (indicates x and y variables, colors, shapes, sizes, etc.)
