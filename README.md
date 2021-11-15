@@ -175,6 +175,14 @@ ggplot(mpg, aes(displ, hwy)) + geom_point()
 
 When you run either of the above commands, you will see this:  
 <img src="/pics/example1.png" width="400">  
+  
+So lets dig into our data a bit more... 
+
+To learn more about those outlying variables in the previous scatterplot, we could map the class variable to colour:
+
+``
+ggplot(mpg, aes(displ, hwy, colour = class)) + geom_point()
+``
 
 ## Lets get festive! One more fun plot!
  
