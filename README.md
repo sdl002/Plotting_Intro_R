@@ -236,9 +236,7 @@ ggplot(mpg, aes(cty, hwy)) +
   geom_smooth(aes(colour = "lm"), method = "lm", se = FALSE) +
   labs(colour = "Method")
 ```
-
-#> `geom_smooth()` using formula 'y ~ x'
-#> `geom_smooth()` using formula 'y ~ x'
+<img src="/pics/example4.png" width="500">  
  
   
 ## Lets get festive! One more fun plot!
