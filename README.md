@@ -166,7 +166,7 @@ ggplot(mpg, aes(x = displ, y = hwy)) + geom_point()
 ``
 
 
-__Almost every plot maps a variable to x and y, so naming these aesthetics is tedious, so the first two unnamed arguments to aes() will be mapped to x and y.This means that the following code is identical to the example above:__
+__Almost every plot maps a variable to x and y, and naming these aesthetics is tedious, so the first two unnamed arguments to aes() will be mapped to x and y.This means that the following code is identical to the example above:__
 
 
 ``
