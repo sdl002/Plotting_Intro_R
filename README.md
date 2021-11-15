@@ -203,7 +203,11 @@ ggplot(mpg, aes(displ, hwy)) + geom_point(colour = "blue")
 ``     
 <img src="/pics/example4.png" width="500">  
   
-In the first plot, the value `blue` is scaled to a pinkish colour, and a legend is added. In the second plot, the points are given the R colour blue. This is an important technique, see vignette("ggplot2-specs") for the values needed for colour and other aesthetics.
+In the first plot, the value `blue` is scaled to a pinkish colour, and a legend is added. In the second plot, the points are given the R colour blue. This is an important technique: __Setting vs. mapping__. 
+  
+Instead of mapping an `aesthetic` property to a `variable`, you can set it to a single value by specifying it in the `layer parameters`. *We map an aesthetic to a variable (e.g., aes(colour = cut)) or set it to a constant (e.g., colour = "red").* If you want appearance to be governed by a variable, __put the specification inside aes()__; if you want override the default size or colour, __put the value outside of aes()__.
+
+see vignette("ggplot2-specs") for the values needed for colour and other aesthetics.
 
 *Different types of aesthetic attributes work better with different types of variables.* For example, __colour__ and __shape__ work well with *categorical variables*, while __size__ works well for *continuous variables*. The amount of data also makes a difference: if there is a lot of data it can be hard to distinguish different groups. An alternative solution is to use `faceting`, as described next.
 
