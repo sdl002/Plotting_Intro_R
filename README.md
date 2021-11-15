@@ -109,7 +109,7 @@ From: https://ggplot2-book.org/introduction.html
 7. Three variables
 
 ## Lets try a few basic plots using a dataset that is part of the ggplot2 package
-The below examples are from: https://ggplot2-book.org/getting-started.html
+The below examples are modified from: https://ggplot2-book.org/getting-started.html
 
 load the packages
 ```
@@ -149,6 +149,31 @@ The variables are mostly self-explanatory:
 
 This dataset suggests many interesting questions. __How are engine size and fuel economy related?__ __Do certain manufacturers care more about fuel economy than others?__ __Has fuel economy improved in the last ten years?__ We will try to answer some of these questions, and in the process learn how to create some basic plots with ggplot2.
 
+
+First, lets look at the mpg as our `data`, where our x is engine size and our y is fuel economy
+
+To do so, lets create a scatterplot defined by:
+
+__Data__: mpg.
+
+__Aesthetic mapping__: engine size mapped to x position, fuel economy to y position.
+__Layer__: points.
+  
+__Pay attention to the structure of this function call__: data and aesthetic mappings are supplied in ggplot(), then layers are added on with `+`. *This is an important pattern*, and as you learn more about ggplot2 you’ll construct increasingly sophisticated plots by adding on more types of components.
+
+``
+ggplot(mpg, aes(x = displ, y = hwy)) + 
+  geom_point()
+``
+
+
+__Almost every plot maps a variable to x and y, so naming these aesthetics is tedious, so the first two unnamed arguments to aes() will be mapped to x and y.This means that the following code is identical to the example above:__
+
+
+```
+ggplot(mpg, aes(displ, hwy)) +
+  geom_point()
+```
 
 
 ## Lets get festive! One more fun plot!
