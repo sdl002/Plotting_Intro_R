@@ -218,7 +218,9 @@ ggplot(mpg, aes(cty, hwy)) +
   geom_point(aes(colour = "blue")) + 
   scale_colour_identity()
 ``
-
+  
+<img src="/pics/example4.png" width="500">  
+  
 see vignette("ggplot2-specs") for the values needed for colour and other aesthetics.
 
 *Different types of aesthetic attributes work better with different types of variables.* For example, __colour__ and __shape__ work well with *categorical variables*, while __size__ works well for *continuous variables*. The amount of data also makes a difference: if there is a lot of data it can be hard to distinguish different groups. An alternative solution is to use `faceting`, as described next.
