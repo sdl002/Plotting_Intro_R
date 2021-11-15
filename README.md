@@ -209,7 +209,15 @@ Instead of mapping an `aesthetic` property to a `variable`, you can set it to a 
 
 The above plots are created with similar code, but have rather __different outputs__. 
 
-The first plot `maps` (not sets) the colour to the value ‘blue’. This effectively creates a __new variable__ containing only the value ‘blue’ and then scales it with a colour scale. Because this value is discrete, the default colour scale uses evenly spaced colours on the colour wheel, and since there is only one value this colour is pinkish.
+The first plot `maps` (not `sets`) the colour to the value ‘blue’. This effectively creates a __new variable__ containing only the value ‘blue’ and then scales it with a colour scale. Because this value is discrete, the default colour scale uses evenly spaced colours on the colour wheel, and since there is only one value this colour is pinkish.
+
+Equivalently to the second plot, one could do the following by mapping to the value, but override the default scale:
+
+``
+ggplot(mpg, aes(cty, hwy)) + 
+  geom_point(aes(colour = "blue")) + 
+  scale_colour_identity()
+``
 
 see vignette("ggplot2-specs") for the values needed for colour and other aesthetics.
 
