@@ -236,7 +236,6 @@ ggplot(mpg, aes(dslp, hwy)) +
   geom_smooth(aes(colour = "lm"), method = "lm", se = FALSE) +
   labs(colour = "Method")
 ```
-<img src="/pics/example5.png" width="500">  
  
   
 ## Lets get festive! One more fun plot!
