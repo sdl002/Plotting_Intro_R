@@ -111,10 +111,18 @@ From: https://ggplot2-book.org/introduction.html
 ## Lets try a few basic plots using a dataset that is part of the ggplot2 package
 The below examples are from: https://ggplot2-book.org/getting-started.html
 
+load the packages
 ```
 library(ggplot2)
-mpg
+```
+Check the following `variable`
 
+```
+mpg
+```
+
+printed to screen:
+```
 #> # A tibble: 234 × 11
 #>   manufacturer model displ  year   cyl trans      drv     cty   hwy fl    class 
 #>   <chr>        <chr> <dbl> <int> <int> <chr>      <chr> <int> <int> <chr> <chr> 
