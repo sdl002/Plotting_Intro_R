@@ -169,9 +169,9 @@ ggplot(mpg, aes(x = displ, y = hwy)) + geom_point()
 __Almost every plot maps a variable to x and y, so naming these aesthetics is tedious, so the first two unnamed arguments to aes() will be mapped to x and y.This means that the following code is identical to the example above:__
 
 
-```
+``
 ggplot(mpg, aes(displ, hwy)) + geom_point()
-```
+``
 
 
 ## Lets get festive! One more fun plot!
