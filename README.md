@@ -68,7 +68,9 @@ ggplot2 is different than most graphics packages, it uses underlying grammar tha
 <img src="/pics/grammar_of_graphics.png" width="800">
 The Grammar of Graphics. Visual by Thomas de Beus
 
-#### The hardest part about using gglot2 may be forgetting all of the preconceptions that you brought over from the use of other graphics tools
+```diff
+- The hardest part about using gglot2 may be forgetting all of the preconceptions that you brought over from the use of other graphics tools
+```
 
 ### There are three main components to every ggplot graph:
 #### 1. Data (usually as a datafram)
