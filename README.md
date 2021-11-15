@@ -68,6 +68,21 @@ ggplot2 is different than most graphics packages, it uses underlying grammar tha
 <img src="/pics/grammar_of_graphics.png" width="800">
 The Grammar of Graphics. Visual by Thomas de Beus
 
+  
+All plots are composed of the data, the information you want to visualise, and a mapping, the description of how the data’s variables are mapped to aesthetic attributes. There are five mapping components:
+
+A layer is a collection of geometric elements and statistical transformations. Geometric elements, geoms for short, represent what you actually see in the plot: points, lines, polygons, etc. Statistical transformations, stats for short, summarise the data: for example, binning and counting observations to create a histogram, or fitting a linear model.
+
+Scales map values in the data space to values in the aesthetic space. This includes the use of colour, shape or size. Scales also draw the legend and axes, which make it possible to read the original data values from the plot (an inverse mapping).
+
+A coord, or coordinate system, describes how data coordinates are mapped to the plane of the graphic. It also provides axes and gridlines to help read the graph. We normally use the Cartesian coordinate system, but a number of others are available, including polar coordinates and map projections.
+
+A facet specifies how to break up and display subsets of data as small multiples. This is also known as conditioning or latticing/trellising.
+
+A theme controls the finer points of display, like the font size and background colour. While the defaults in ggplot2 have been chosen with care, you may need to consult other references to create an attractive plot. A good starting place is Tufte’s early works.3
+From: https://ggplot2-book.org/introduction.html
+
+
 ```diff
 - The hardest part may be forgetting the preconceptions you brought over from using other graphics tools
 ```
