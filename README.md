@@ -51,7 +51,7 @@ https://ggplot2.tidyverse.org/index.html
 
 # Basic ggplot2 concepts:
 
-ggplot2 was developed by Hadley Wickham   
+ggplot2 was developed by Hadley Wickham (developer of the Tidyverse).    
 <img src="/pics/hadley_wickham.jpeg" width="400">  
 
 
