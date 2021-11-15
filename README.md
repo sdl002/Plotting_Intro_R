@@ -109,6 +109,8 @@ From: https://ggplot2-book.org/introduction.html
 7. Three variables
 
 ## Lets try a few basic plots using a dataset that is part of the ggplot2 package
+The below examples are from: https://ggplot2-book.org/getting-started.html
+
 
 
 ## Lets get festive! One more fun plot!
