@@ -203,7 +203,13 @@ ggplot(mpg, aes(displ, hwy)) + geom_point(colour = "blue")
 ``     
 <img src="/pics/example4.png" width="500">  
   
- 
+In the first plot, the value `blue` is scaled to a pinkish colour, and a legend is added. In the second plot, the points are given the R colour blue. This is an important technique, see vignette("ggplot2-specs") for the values needed for colour and other aesthetics.
+
+*Different types of aesthetic attributes work better with different types of variables.* For example, __colour__ and __shape__ work well with *categorical variables*, while __size__ works well for *continuous variables*. The amount of data also makes a difference: if there is a lot of data it can be hard to distinguish different groups. An alternative solution is to use `faceting`, as described next.
+
+When using `aesthetics` in a plot, __less is usually more__. It’s difficult to see the simultaneous relationships among colour and shape and size, so *exercise restraint when using aesthetics*. Instead of trying to make one very complex plot that shows everything at once, see if you can create a series of simple plots that tell a story, leading the reader from ignorance to knowledge.
+
+
  
   
 ## Lets get festive! One more fun plot!
