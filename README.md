@@ -162,8 +162,7 @@ __Layer__: points.
 __Pay attention to the structure of this function call__: data and aesthetic mappings are supplied in ggplot(), then layers are added on with `+`. *This is an important pattern*, and as you learn more about ggplot2 you’ll construct increasingly sophisticated plots by adding on more types of components.
 
 ``
-ggplot(mpg, aes(x = displ, y = hwy)) + 
-  geom_point()
+ggplot(mpg, aes(x = displ, y = hwy)) + geom_point()
 ``
 
 
@@ -171,8 +170,7 @@ __Almost every plot maps a variable to x and y, so naming these aesthetics is te
 
 
 ```
-ggplot(mpg, aes(displ, hwy)) +
-  geom_point()
+ggplot(mpg, aes(displ, hwy)) + geom_point()
 ```
 
 
