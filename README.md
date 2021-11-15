@@ -24,8 +24,7 @@ This is an intro to plotting with R, and will introduce basic ggplot techniques 
 
 ggplot2 is an R package that allows for customizable data visualization. It is part of the tidyverse package suite and is a very well maintained and continuously updated package. https://ggplot2.tidyverse.org/
 
-To use ggplot2, you will need to have access to `R`, and I reccomend following along with `RStudio`. You can either use a local installation or a server installation. To be able to reproduce the work in the following examples, I also reccomend using the Docker that is available: XXXX
-
+To use ggplot2, you will need to have access to `R`, and I recommend following along with `RStudio`. You can use a local installation, a server installation, or prefereably you can follow along using the docker image built by the dockerfile found here.
 
 
 To install ggplot2 you can do the following:
