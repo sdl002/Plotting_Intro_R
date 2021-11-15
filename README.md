@@ -45,3 +45,13 @@ ggplot2 cheat sheets: &nbsp;
 <img src="/pics/datavis_1.png" width="400">  
 <img src="/pics/datavis_2.png" width="400">  
 https://ggplot2.tidyverse.org/index.html
+
+
+
+
+Basic ggplot2 concepts:
+
+ggplot2 was developed by Hadley Wickham
+<img src="/pics/hadley_wickham.jpeg" width="200">  
+
+
