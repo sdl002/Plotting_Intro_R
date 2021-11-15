@@ -61,10 +61,10 @@ https://ggplot2.tidyverse.org/index.html
 ggplot2 was developed by Hadley Wickham (developer of the Tidyverse).    
 <img src="/pics/hadley_wickham.jpeg" width="400">  
 
-ggplot2 is different than most graphics packages, it uses underlying grammar that is based on the ["Grammar of Graphics"](https://link.springer.com/chapter/10.1007/978-3-642-21551-3_13). This allows the user to compose graphs by combining independent components. One can think about the plots as having layers of data.
+ggplot2 is different than most graphics packages, it uses underlying grammar that is based on the ["Grammar of Graphics"](https://link.springer.com/chapter/10.1007/978-3-642-21551-3_13). This allows the user to compose graphs by combining independent components. One can think about the plots as having layers of data.   
 
 
-
+<img src="/pics/grammar_of_graphics.png" width="400">  
 The Grammar of Graphics. Visual by Thomas de Beus
 
 
