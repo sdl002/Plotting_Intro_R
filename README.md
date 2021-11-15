@@ -83,5 +83,12 @@ The Grammar of Graphics. Visual by Thomas de Beus
 ### Generated plots can be kept as variables, printed out at anytime, or saved using:
 `ggsave(“plot.png”, width = 5, height = 5)` which saves the last plot in the current working directory.
 
-The generated plot can be kept as a variable and then printed at any time using the function print().
+### ggplot2 can generate the following types of plots (which are dependant on your type of data):
+1. One variable - x: continuous or discrete
+2. Two variables - x & y: continuous and/or discrete
+3. Continuous bivariate distribution - x & y (both continuous)
+4. Continuous function
+5. Error bar
+6. Maps
+7. Three variables
 
