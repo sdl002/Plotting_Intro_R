@@ -40,17 +40,21 @@ install.packages("tidyverse")
 install.packages("ggplot2")
 ```
 
-ggplot2 cheat sheets: &nbsp;  
-<img src="/pics/datavis_1.png" width="400">  
-<img src="/pics/datavis_2.png" width="400">  
-https://ggplot2.tidyverse.org/index.html
-
 #### As always, you must load the package
 
 The easiest way is to just `library` the package
 ```
 library("ggplot2")
 ```
+
+#### You are now ready to work with ggplot2, see cheat sheeps below to get started with the basics
+
+ggplot2 cheat sheets: &nbsp;  
+<img src="/pics/datavis_1.png" width="400">  
+<img src="/pics/datavis_2.png" width="400">  
+https://ggplot2.tidyverse.org/index.html
+
+
 
 # Basic ggplot2 concepts:
 
