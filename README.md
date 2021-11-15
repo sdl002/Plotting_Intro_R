@@ -108,3 +108,8 @@ From: https://ggplot2-book.org/introduction.html
 6. Maps
 7. Three variables
 
+## Lets try a few basic plots using a dataset that is part of the ggplot2 package
+
+
+## Lets get festive! One more fun plot!
+ 
