@@ -46,7 +46,7 @@ The easiest way is to just `library` the package
 library("ggplot2")
 ```
 
-#### You are now ready to work with ggplot2, see cheat sheeps below to get started with the basics
+#### You are now ready to work with ggplot2, see cheat sheets below to get started with the basics
 
 ggplot2 cheat sheets: &nbsp;  
 <img src="/pics/datavis_1.png" width="400">  
@@ -335,7 +335,29 @@ The three dimensions have different properties. Hues are arranged around a colou
 
   
 ### Continuous Color Scales
+
+Colour gradients are often used to show the height of a 2d surface. The plots in this section use the surface of a 2d density estimate of the faithful dataset,35 which records the waiting time between eruptions and during each eruption for the Old Faithful geyser in Yellowstone Park. I hide the legends and set expand to 0, to focus on the appearance of the data. Remember: although I use the erupt plot to illustrate concepts using with a fill aesthetic, the same ideas apply to colour scales. Any time I refer to scale_fill_*() in this section there is a corresponding scale_colour_*() for the colour aesthetic (or scale_color_*() if you prefer US spelling).
+
+```
+erupt <- ggplot(faithfuld, aes(waiting, eruptions, fill = density)) +
+  geom_raster() +
+  scale_x_continuous(NULL, expand = c(0, 0)) + 
+  scale_y_continuous(NULL, expand = c(0, 0)) + 
+  theme(legend.position = "none")
   
+erupt
+erupt + scale_fill_viridis_c()
+erupt + scale_fill_viridis_c(option = "magma")
+```
+<img src="/pics/example11.png" width="500"> 
+
+
+```
+erupt + scale_fill_distiller()
+erupt + scale_fill_distiller(palette = "RdPu")
+erupt + scale_fill_distiller(palette = "YlOrBr")
+```
+<img src="/pics/example11.png" width="500"> 
 
 
 ## Lets get festive! One more fun plot!
