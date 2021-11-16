@@ -349,7 +349,7 @@ erupt
 erupt + scale_fill_viridis_c()
 erupt + scale_fill_viridis_c(option = "magma")
 ```
-<img src="/pics/example11.png" width="500"> 
+<img src="/pics/example12.png" width="500"> 
 
 
 ```
@@ -357,7 +357,7 @@ erupt + scale_fill_distiller()
 erupt + scale_fill_distiller(palette = "RdPu")
 erupt + scale_fill_distiller(palette = "YlOrBr")
 ```
-<img src="/pics/example11.png" width="500"> 
+<img src="/pics/example13.png" width="500"> 
 
 
 ## Lets get festive! One more fun plot!
