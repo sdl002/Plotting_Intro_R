@@ -310,5 +310,17 @@ ggplot(mpg, aes(hwy)) + geom_freqpoly()
 ```
 <img src="/pics/example10.png" width="500"> 
 
+To compare the distributions of different subgroups, you can map a categorical variable to either `fill` (for `geom_histogram()`) or `colour` (for `geom_freqpoly()`). It’s easier to compare distributions using the frequency polygon because the underlying perceptual task is easier. You can also use faceting: this makes comparisons a little harder, but it’s easier to see the distribution of each group.  
+
+```
+ggplot(mpg, aes(displ, colour = drv)) + 
+  geom_freqpoly(binwidth = 0.5)
+ggplot(mpg, aes(displ, fill = drv)) + 
+  geom_histogram(binwidth = 0.5) + 
+  facet_wrap(~drv, ncol = 1)
+```
+<img src="/pics/example11.png" width="500"> 
+
+
 ## Lets get festive! One more fun plot!
  
