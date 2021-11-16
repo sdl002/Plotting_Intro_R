@@ -227,6 +227,34 @@ see vignette("ggplot2-specs") for the values needed for colour and other aesthet
 
 When using `aesthetics` in a plot, __less is usually more__. It’s difficult to see the simultaneous relationships among colour and shape and size, so *exercise restraint when using aesthetics*. Instead of trying to make one very complex plot that shows everything at once, see if you can create a series of simple plots that tell a story, leading the reader from ignorance to knowledge.
 
+
+## Lets add a smoother to our plot!
+
+```
+ggplot(mpg, aes(displ, hwy)) + 
+  geom_point() + 
+  geom_smooth()
+```
+
+An important argument to geom_smooth() is the method, which allows you to choose which type of model is used to fit the smooth curve:
+
+method = "loess", the default for small n, uses a smooth local regression (as described in ?loess). The wiggliness of the line is controlled by the span parameter, which ranges from 0 (exceedingly wiggly) to 1 (not so wiggly).
+
+```
+ggplot(mpg, aes(displ, hwy)) + 
+  geom_point() + 
+  geom_smooth(span = 0.2)
+```
+
+
+
+
+```
+ggplot(mpg, aes(displ, hwy)) + 
+  geom_point() + 
+  geom_smooth(span = 1)
+```
+
 It’s sometimes useful to map aesthetics to constants. For example, if you want to display multiple layers with varying parameters, you can “name” each layer:
 
 ```
