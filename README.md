@@ -269,6 +269,18 @@ ggplot(mpg, aes(dslp, hwy)) +
 ```
 <img src="/pics/example5_u.png" width="500">  
 
+
+## Lets take a look at boxplots and jitterplots
+
+When a set of data includes a categorical variable and one or more continuous variables, you will probably be interested to know how the values of the continuous variables vary with the levels of the categorical variable. Say we’re interested in seeing how fuel economy varies within cars that have the same kind of drivetrain. We might start with a scatterplot like this:
+
+
+```
+ggplot(mpg, aes(drv, hwy)) + 
+  geom_point()
+```
+<img src="/pics/example8.png" width="500">  
+
   
 ## Lets get festive! One more fun plot!
  
