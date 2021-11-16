@@ -395,4 +395,19 @@ bars + scale_fill_brewer(palette = "Accent")
 <img src="/pics/example15.png" width="500"> 
 
 ## Lets get festive! One more fun plot!
- 
+
+See original publication here: https://t-redactyl.io/blog/2016/12/a-very-ggplot2-christmas.html
+
+```
+read.csv("/igm/projects/intro_to_ggplot/ChristmasTree.csv")
+library(ggplot2)
+
+tree <- ggplot() + 
+          geom_tile(data = ChristmasTree, aes(x = Tree.X, y = Tree.Y, fill = Tree.Colour)) +       
+          scale_fill_identity() + 
+          theme_bw() +
+          scale_x_continuous(breaks = NULL) + 
+          scale_y_continuous(breaks = NULL) +
+          labs(x = "", y = "")
+tree
+```
