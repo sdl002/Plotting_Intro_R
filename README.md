@@ -280,15 +280,19 @@ ggplot(mpg, aes(drv, hwy)) +
 ```
 <img src="/pics/example8.png" width="500">  
 
-Because there are few unique values of both drv and hwy, there is a lot of overplotting. Many points are plotted in the same location, and it’s difficult to see the distribution. There are three useful techniques that help alleviate the problem:
+There are few unique values for `drv` and `hwy`, __so__ there is a lot of overplotting.   
+  
+Many points are plotted in the same location, making it difficult to see the distribution.   
+  
+There are three useful techniques that help alleviate the problem:
 
-Jittering, geom_jitter(), adds a little random noise to the data which can help avoid overplotting.
+- __Jittering__, `geom_jitter()`, adds a little random noise to the data which can help avoid overplotting.
 
-Boxplots, geom_boxplot(), summarise the shape of the distribution with a handful of summary statistics.
+- __Boxplots__, `geom_boxplot()`, summarise the shape of the distribution with a handful of summary statistics.
 
-Violin plots, geom_violin(), show a compact representation of the “density” of the distribution, highlighting the areas where more points are found.
+- __Violin plots__, `geom_violin()`, show a compact representation of the “density” of the distribution, highlighting the areas where more points are found.
 
-These are illustrated below:
+*These are illustrated below:*
 
 ```
 ggplot(mpg, aes(drv, hwy)) + geom_jitter()
