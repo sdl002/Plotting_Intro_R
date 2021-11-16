@@ -24,8 +24,7 @@ This is an intro to plotting with R, and will introduce basic ggplot techniques 
 
 ggplot2 is an R package that allows for customizable data visualization. It is part of the tidyverse package suite and is a very well maintained and continuously updated package. https://ggplot2.tidyverse.org/
 
-To use ggplot2, you will need to have access to `R`, and I recommend following along with `RStudio`. You can use a local installation, a server installation, or prefereably you can follow along using the docker image built by the dockerfile found here.
-
+To use ggplot2, you will need to have access to `R`, and I recommend following along with `RStudio`. You can use a local installation, a server installation (https://igm-rstudio.crii.org/).
 
 To install ggplot2 you can do the following:
 
@@ -328,6 +327,16 @@ There have been many attempts to come up with colours spaces that are more perce
 - __Hue__ ranges from 0 to 360 (an angle) and gives the “colour” of the colour (blue, red, orange, etc).
 - __Chroma__ is the “purity” of a colour, ranging from 0 (grey) to a maximum that varies with luminance.
 - __Luminance__ is the lightness of the colour, ranging from 0 (black) to 1 (white).
+  
+The three dimensions have different properties. Hues are arranged around a colour wheel and are not perceived as ordered: e.g. green does not seem “larger” than red, and blue does not seem to be “in between” green or red. In contrast, both chroma and luminance are perceived as ordered: pink is perceived as lying between red and white, and grey is seen to fall between black and white.
+   
+   
+*It’s best to avoid red-green contrasts, and to check your plots with systems that simulate colour blindness. Visicheck is one online solution, another alternative is the dichromat package, which provides tools for simulating colour blindness, and a set of colour schemes known to work well for colour-blind people.*
+
+  
+### Continuous Color Scales
+  
+
 
 ## Lets get festive! One more fun plot!
  
