@@ -321,6 +321,13 @@ ggplot(mpg, aes(displ, fill = drv)) +
 ```
 <img src="/pics/example11.png" width="500"> 
 
+## Lets talk colors!
+
+There have been many attempts to come up with colours spaces that are more perceptually uniform. We’ll use a modern attempt called the __HCL colour space__, which has three components of hue, chroma and luminance:
+
+- __Hue__ ranges from 0 to 360 (an angle) and gives the “colour” of the colour (blue, red, orange, etc).
+- __Chroma__ is the “purity” of a colour, ranging from 0 (grey) to a maximum that varies with luminance.
+- __Luminance__ is the lightness of the colour, ranging from 0 (black) to 1 (white).
 
 ## Lets get festive! One more fun plot!
  
