@@ -244,7 +244,8 @@ method = "loess", the default for small n, uses a smooth local regression (as de
 ggplot(mpg, aes(displ, hwy)) + 
   geom_point() + 
   geom_smooth(span = 0.2)
-```
+```  
+<img src="/pics/example6.png" width="500">  
 
 
 
@@ -253,8 +254,10 @@ ggplot(mpg, aes(displ, hwy)) +
 ggplot(mpg, aes(displ, hwy)) + 
   geom_point() + 
   geom_smooth(span = 1)
-```
+```  
+<img src="/pics/example7.png" width="500">  
 
+  
 It’s sometimes useful to map aesthetics to constants. For example, if you want to display multiple layers with varying parameters, you can “name” each layer:
 
 ```
