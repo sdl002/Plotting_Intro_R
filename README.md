@@ -298,5 +298,17 @@ ggplot(mpg, aes(drv, hwy)) + geom_violin()
 ```
 <img src="/pics/example9.png" width="500">  
 
+For jittered points, `geom_jitter()` offers the same control over aesthetics as `geom_point()`: `size`, `colour`, and `shape`. For `geom_boxplot()` and `geom_violin()`, you can control the outline colour or the internal fill colour.
+  
+## Histograms and frequency polygons
+
+Histograms and frequency polygons show the distribution of a single numeric variable. They provide more information about the distribution of a single group than boxplots do, at the expense of needing more space.
+
+```
+ggplot(mpg, aes(hwy)) + geom_histogram()
+ggplot(mpg, aes(hwy)) + geom_freqpoly()
+```
+<img src="/pics/example10.png" width="500"> 
+
 ## Lets get festive! One more fun plot!
  
