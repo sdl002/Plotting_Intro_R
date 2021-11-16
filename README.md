@@ -359,6 +359,26 @@ erupt + scale_fill_distiller(palette = "YlOrBr")
 ```
 <img src="/pics/example13.png" width="500"> 
 
+### Discrete Color Scales
+
+Discrete colour and fill scales occur in many situations. A typical example is a barchart that encodes both position and fill to the same variable.
+
+```
+df <- data.frame(x = c("a", "b", "c", "d"), y = c(3, 4, 1, 2))
+bars <- ggplot(df, aes(x, y, fill = x)) + 
+  geom_bar(stat = "identity") + 
+  labs(x = NULL, y = NULL) +
+  theme(legend.position = "none")
+```
+
+The default scale for discrete colours is scale_fill_discrete() which in turn defaults to scale_fill_hue() so these are identical plots:
+
+```
+bars
+bars + scale_fill_discrete()
+bars + scale_fill_hue()
+```
+<img src="/pics/example14.png" width="500"> 
 
 ## Lets get festive! One more fun plot!
  
