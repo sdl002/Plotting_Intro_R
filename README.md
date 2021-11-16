@@ -379,6 +379,20 @@ bars + scale_fill_discrete()
 bars + scale_fill_hue()
 ```
 <img src="/pics/example14.png" width="500"> 
+  
+
+`scale_colour_brewer()` is a discrete colour scale that—along with the continuous analog `scale_colour_distiller()` and binned analog `scale_colour_fermenter()`—uses handpicked “ColorBrewer” colours taken from http://colorbrewer2.org/. These colours have been designed to work well in a wide variety of situations, although the focus is on maps and so the colours tend to work better when displayed in large areas. There are many different options:
+
+``RColorBrewer::display.brewer.all()``
+
+The first group of palettes are sequential scales that are useful when your discrete scale is ordered (e.g., rank data), and are available for continuous data using scale_colour_distiller(). For unordered categorical data, the palettes of most interest are those in the second group. ‘Set1’ and ‘Dark2’ are particularly good for points, and ‘Set2’, ‘Pastel1’, ‘Pastel2’ and ‘Accent’ work well for areas.
+
+```
+bars + scale_fill_brewer(palette = "Set1")
+bars + scale_fill_brewer(palette = "Set2")
+bars + scale_fill_brewer(palette = "Accent")
+```
+<img src="/pics/example15.png" width="500"> 
 
 ## Lets get festive! One more fun plot!
  
